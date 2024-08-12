@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorenz Attractor</title>
+    <title>Lorenz Attractor and Heat Equation</title>
     <style>
         body {
-            margin: 0
+            margin: 0;
+            overflow: hidden;
         }
     </style>
+     <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.152.0/build/three.module.js",
+            "OrbitControls": "https://cdn.jsdelivr.net/npm/three@0.152.0/examples/jsm/controls/OrbitControls.js"
+          }
+        }
+      </script> 
 </head>
 <body>
-    <script defer src="./js/scripts.js"></script>
+    <script type="module" src="./js/scripts.js"></script>
 </body>
 </html>
